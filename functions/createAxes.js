@@ -12,7 +12,7 @@ export const createAxes = (state) => {
       .domain([
         state.parameters.startYear,
         // Add extra space on x-axis for annotations at the end of visualization, otherwise just use the end year
-        [14, 15, 16, 17].includes(state.parameters.scene)
+        [13, 14, 15, 16, 17].includes(state.parameters.scene)
           ? 2090
           : state.parameters.endYear,
       ])
