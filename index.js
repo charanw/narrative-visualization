@@ -11,7 +11,7 @@ import {
 } from "./functions/eventHandlers.js";
 
 export const MARGIN = 100;
-export const MESSAGE = `<p>According to the The Intergovernmental Panel on Climate Change, it
+export const MESSAGE = `<p>According to the Intergovernmental Panel on Climate Change, it
             is "unequivocal" that, primarily by greenhhouse gas emissions, human
             activity has caused global warming, leading to "widespread and rapid
             changes in the atmosphere, ocean, cryosphere, and biosphere" with

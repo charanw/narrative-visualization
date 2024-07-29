@@ -2,14 +2,14 @@ export const narrativeAnnotations = {
   1760: {
     note: {
       label:
-        "The Industrial Revolution begins, setting off the exponential rise in human emissions.",
+        "The Industrial Revolution begins, setting off the exponential rise in human emissions",
     },
     dx: 0,
     dy: -30,
   },
   1860: {
     note: {
-      label: "Human emissions begin to accelerate.",
+      label: "Human emissions begin to accelerate",
     },
     dx: -50,
     dy: -30,
@@ -93,14 +93,14 @@ export const narrativeAnnotations = {
   },
   2020: {
     note: {
-      label: "The Covid-19 pandemic caused a decrease in global emissions.",
+      label: "The Covid-19 pandemic caused a decrease in global emissions",
     },
-    dx: 0,
+    dx: -10,
     dy: +200,
   },
   2021: {
     note: {
-      label: "But emissions quickly rebounded only a year later.",
+      label: "But emissions quickly rebounded only a year later",
     },
     dx: +100,
     dy: +150,

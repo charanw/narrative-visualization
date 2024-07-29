@@ -16,6 +16,7 @@ export const handleReset = () => {
   toggleDetails = 0;
   document.getElementById("toggle-annotations").innerHTML =
     "Disable Annotations";
+  document.getElementById("toggle-details").innerHTML = "Enable Details";
   updateScene(0);
 };
 
