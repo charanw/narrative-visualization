@@ -194,7 +194,7 @@ export const handleDetails = () => {
             wrap: 250,
             bgPadding: 20,
             title: selectedYear,
-            label: format(selectedCO2.CO2 * 10e7) + " tons of CO2",
+            label: format(selectedCO2.CO2 * 10e7) + " metric tonnes of CO2",
           },
         };
 
