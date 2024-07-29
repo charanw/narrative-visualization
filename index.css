@@ -1,0 +1,108 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #343a40;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+svg {
+  background-color: #495057;
+  color: black;
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.5);
+  transition: none;
+}
+
+svg line,
+path {
+  stroke: white;
+}
+
+svg text {
+  fill: white;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+#message {
+  margin-bottom: 2rem;
+  width: 70%;
+  font-size: 1.2rem;
+}
+
+.container {
+  width: 100%;
+  max-height: 60vh;
+  height: 60vh;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 1rem;
+  width: 70%;
+  padding: 1rem;
+}
+
+.sources {
+  text-align: left;
+}
+
+.button {
+  padding: 0.5rem;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  background: #495057;
+  color: white;
+  font-weight: bold;
+}
+
+.button:hover {
+  cursor: pointer;
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.co2-line {
+  stroke: #b7351b;
+}
+
+.annotation-note-bg {
+  fill: #343a40;
+  fill-opacity: 0.6;
+}
+
+#reset-zoom,
+#reset,
+#toggle-annotations,
+#toggle-brushzoom,
+#toggle-details {
+  display: none;
+}
