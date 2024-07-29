@@ -1,14 +1,14 @@
 # Exploring World Events and Global CO2 Emissions
 
-According to the The Intergovernmental Panel on Climate Change, it
+According to the Intergovernmental Panel on Climate Change, it
 is "unequivocal" that, primarily by greenhhouse gas emissions, human
 activity has caused global warming, leading to "widespread and rapid
 changes in the atmosphere, ocean, cryosphere, and biosphere" with
-"adverse impacts". (IPCC, 2023) This narrative visualization
+"adverse impacts." (IPCC, 2023) This narrative visualization
 explores the evolution of global CO2 (a greenhouse gas) emissions
-and how emissions have been impacted by major world events.  
+and how emissions have been impacted by major world events.
 
-View online at https://charanw.github.io/narrative-visualization  
+View online at https://charanw.github.io/narrative-visualization
 
 Sources:  
 Global Carbon Budget (2023) – with major processing by Our World in Data. “Annual CO₂ emissions – GCB” [dataset]. Global Carbon Project, “Global Carbon Budget” [original data].  
