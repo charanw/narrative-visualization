@@ -133,7 +133,12 @@ export const handleBrushzoom = () => {
 
 // Handle reset zoom button
 export const handleResetZoom = () => {
+  setState({ annotations: [] });
+  toggleAnnotations = 0;
+  toggleDetails = 0;
   document.getElementById("reset-zoom").style.display = "none";
+  document.getElementById("toggle-annotations").innerHTML =
+    "Disable Annotations";
   updateScene(17);
 };
 
