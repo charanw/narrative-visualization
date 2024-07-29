@@ -59,7 +59,7 @@ export const handleResize = ([entry]) => {
     "Disable Annotations";
   document.getElementById("toggle-details").innerHTML = "Enable Details";
 
-  // Update UI
+  // Update chart
   updateChart(state);
 };
 
