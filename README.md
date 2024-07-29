@@ -1,4 +1,4 @@
-# narrative-visualization
+# Exploring World Events and Global CO2 Emissions
 
 According to the The Intergovernmental Panel on Climate Change, it
 is "unequivocal" that, primarily by greenhhouse gas emissions, human
