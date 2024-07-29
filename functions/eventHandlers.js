@@ -17,6 +17,7 @@ export const handleReset = () => {
   document.getElementById("toggle-annotations").innerHTML =
     "Disable Annotations";
   document.getElementById("toggle-details").innerHTML = "Enable Details";
+  document.getElementById("reset-zoom").style.display = "none";
   updateScene(0);
 };
 
@@ -38,7 +39,6 @@ export const handleSkip = () => {
 
 // Handle resize
 export const handleResize = ([entry]) => {
-  console.log(entry);
   const height = entry.contentRect.height;
   const width = entry.contentRect.width;
 
