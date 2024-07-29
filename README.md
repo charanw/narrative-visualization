@@ -7,3 +7,5 @@ changes in the atmosphere, ocean, cryosphere, and biosphere" with
 "adverse impacts". (IPCC, 2023) This narrative visualization
 explores the evolution of global CO2 (a greenhouse gas) emissions
 and how emissions have been impacted by major world events.
+
+View online at https://charanw.github.io/narrative-visualization
