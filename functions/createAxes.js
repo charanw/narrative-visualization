@@ -54,7 +54,7 @@ export const createAxes = (state) => {
       .attr("x", -height / 2 - MARGIN * 2)
       .attr("y", MARGIN - 50)
       .attr("transform", "rotate(-90)")
-      .text("Emissions GtCO2 (Billions of tons)");
+      .text("Emissions GtCO2 (Billions of metric tonnes)");
   } catch (error) {
     console.error("Error creating axes: ", error);
   }
